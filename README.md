@@ -1,0 +1,1 @@
+Web-based application for smart home management
