@@ -21,7 +21,7 @@ class ControllerView(FormView):
 
     def get_context_data(self, **kwargs):
         context = super(ControllerView, self).get_context_data()
-        context['data'] = {}
+        context['data'] = get_data()
         return context
 
     def get_initial(self):
