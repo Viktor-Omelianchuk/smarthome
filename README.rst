@@ -10,7 +10,6 @@ Devices connected to the controller are available for recording (usually true - 
 
 Implement automatically polling the controller in the background every 5 seconds (django celery) and reacting to some events.
 
- Automatically poll the controller in the background every second and react to some events.
 
  If there is a water leak (leak_detector = true), close the cold (cold_water = false) and hot (hot_water = false) water and send a letter at the time of detection.
 
